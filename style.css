@@ -1,0 +1,32 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background: #151821;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  position: relative;
+  top: 2rem;
+}
+
+.emotegrid {
+  position: relative;
+  top: 10rem;
+}
+
+.emotegrid img {
+  transition: 0.2s ease-in-out;
+  width: 10%;
+  cursor: pointer;
+}
+
+.emotegrid img:hover {
+  width: 11%;
+}
